@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import styles from './ModalAddPromotion.module.scss';
+import styles from './ModalAddpromotion.module.scss';
 
 const ModalAddPromotion = ({ isShow, setIsShow, addItem }) => {
     const modalRef = useRef(null);
